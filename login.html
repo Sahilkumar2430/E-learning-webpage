@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Request Info Form</title>
+  <link rel="stylesheet" href="login.css"/>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Request More Information</h2>
+    <form class="info-form">
+      <input type="text" placeholder="Full Name*" required />
+      <input type="email" placeholder="Enter Email ID*" required />
+
+      <div class="phone-row">
+        <select required>
+          <option selected>India (+91)</option>
+          <option>USA (+1)</option>
+          <option>UK (+44)</option>
+          <option>UAE (+971)</option>
+          <option>Canada (+1)</option>
+        </select>
+        <input type="tel" placeholder="Contact Number*" required />
+      </div>
+
+      <select required>
+        <option disabled selected>Preferred Program</option>
+        <option>Data Science</option>
+        <option>Finance</option>
+        <option>AI & ML</option>
+        <option>Cybersecurity</option>
+      </select>
+
+      <div class="checkbox-row">
+        <label>
+          <input type="checkbox" required />
+          I accept the <a href="#">Terms & Conditions</a>
+        </label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <a href="index.html" class="return-home">← Return to Home Page</a>
+
+  </div>
+
+</body>
+</html>
